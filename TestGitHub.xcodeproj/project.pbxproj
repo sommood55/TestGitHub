@@ -1,0 +1,261 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EF6203EF153E90F500323E55 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF6203EE153E90F500323E55 /* UIKit.framework */; };
+		EF6203F1153E90F500323E55 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF6203F0153E90F500323E55 /* Foundation.framework */; };
+		EF6203F3153E90F500323E55 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF6203F2153E90F500323E55 /* CoreGraphics.framework */; };
+		EF6203F9153E90F600323E55 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = EF6203F7153E90F600323E55 /* InfoPlist.strings */; };
+		EF6203FB153E90F600323E55 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EF6203FA153E90F600323E55 /* main.m */; };
+		EF6203FF153E90F600323E55 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EF6203FE153E90F600323E55 /* AppDelegate.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		EF6203EA153E90F500323E55 /* TestGitHub.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestGitHub.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF6203EE153E90F500323E55 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		EF6203F0153E90F500323E55 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		EF6203F2153E90F500323E55 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		EF6203F6153E90F600323E55 /* TestGitHub-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TestGitHub-Info.plist"; sourceTree = "<group>"; };
+		EF6203F8153E90F600323E55 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		EF6203FA153E90F600323E55 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EF6203FC153E90F600323E55 /* TestGitHub-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TestGitHub-Prefix.pch"; sourceTree = "<group>"; };
+		EF6203FD153E90F600323E55 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		EF6203FE153E90F600323E55 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EF6203E7153E90F400323E55 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF6203EF153E90F500323E55 /* UIKit.framework in Frameworks */,
+				EF6203F1153E90F500323E55 /* Foundation.framework in Frameworks */,
+				EF6203F3153E90F500323E55 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EF6203DF153E90F100323E55 = {
+			isa = PBXGroup;
+			children = (
+				EF6203F4153E90F500323E55 /* TestGitHub */,
+				EF6203ED153E90F500323E55 /* Frameworks */,
+				EF6203EB153E90F500323E55 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EF6203EB153E90F500323E55 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EF6203EA153E90F500323E55 /* TestGitHub.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EF6203ED153E90F500323E55 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EF6203EE153E90F500323E55 /* UIKit.framework */,
+				EF6203F0153E90F500323E55 /* Foundation.framework */,
+				EF6203F2153E90F500323E55 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EF6203F4153E90F500323E55 /* TestGitHub */ = {
+			isa = PBXGroup;
+			children = (
+				EF6203FD153E90F600323E55 /* AppDelegate.h */,
+				EF6203FE153E90F600323E55 /* AppDelegate.m */,
+				EF6203F5153E90F500323E55 /* Supporting Files */,
+			);
+			path = TestGitHub;
+			sourceTree = "<group>";
+		};
+		EF6203F5153E90F500323E55 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EF6203F6153E90F600323E55 /* TestGitHub-Info.plist */,
+				EF6203F7153E90F600323E55 /* InfoPlist.strings */,
+				EF6203FA153E90F600323E55 /* main.m */,
+				EF6203FC153E90F600323E55 /* TestGitHub-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EF6203E9153E90F400323E55 /* TestGitHub */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EF620402153E90F600323E55 /* Build configuration list for PBXNativeTarget "TestGitHub" */;
+			buildPhases = (
+				EF6203E6153E90F400323E55 /* Sources */,
+				EF6203E7153E90F400323E55 /* Frameworks */,
+				EF6203E8153E90F400323E55 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TestGitHub;
+			productName = TestGitHub;
+			productReference = EF6203EA153E90F500323E55 /* TestGitHub.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EF6203E1153E90F200323E55 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0430;
+			};
+			buildConfigurationList = EF6203E4153E90F200323E55 /* Build configuration list for PBXProject "TestGitHub" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = EF6203DF153E90F100323E55;
+			productRefGroup = EF6203EB153E90F500323E55 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EF6203E9153E90F400323E55 /* TestGitHub */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EF6203E8153E90F400323E55 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF6203F9153E90F600323E55 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EF6203E6153E90F400323E55 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF6203FB153E90F600323E55 /* main.m in Sources */,
+				EF6203FF153E90F600323E55 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		EF6203F7153E90F600323E55 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EF6203F8153E90F600323E55 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EF620400153E90F600323E55 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		EF620401153E90F600323E55 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EF620403153E90F600323E55 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TestGitHub/TestGitHub-Prefix.pch";
+				INFOPLIST_FILE = "TestGitHub/TestGitHub-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		EF620404153E90F600323E55 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TestGitHub/TestGitHub-Prefix.pch";
+				INFOPLIST_FILE = "TestGitHub/TestGitHub-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EF6203E4153E90F200323E55 /* Build configuration list for PBXProject "TestGitHub" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF620400153E90F600323E55 /* Debug */,
+				EF620401153E90F600323E55 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EF620402153E90F600323E55 /* Build configuration list for PBXNativeTarget "TestGitHub" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF620403153E90F600323E55 /* Debug */,
+				EF620404153E90F600323E55 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EF6203E1153E90F200323E55 /* Project object */;
+}
